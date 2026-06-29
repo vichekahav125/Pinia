@@ -1,15 +1,7 @@
 # TODO
 
-## Bonus: Student Management System (Pinia)
-
-- [x] Create `src/stores/studentStore.js` with state `students`, actions `addStudent/deleteStudent/updateStudent`, getter `totalStudents` and LocalStorage persistence helpers.
-- [x] Create `src/stores/courseStore.js` with state `courses`, actions `addCourse/deleteCourse`, getter `totalCourses` and LocalStorage persistence helpers.
-- [x] Create `src/stores/enrollmentStore.js` with state `enrollments`, actions `enrollStudent/removeEnrollment`, getter `totalEnrollments` and LocalStorage persistence helpers.
-- [x] Update `src/views/DemoView.vue` to display UI panels for students/courses/enrollments and wire to actions/getters.
-- [ ] Run the app and manually verify:
-  - Add/edit/delete student works
-  - Add/delete course works
-  - Enroll/remove enrollment works
-  - Counts update via getters
-  - Refresh preserves bonus data (LocalStorage)
+- [ ] Verify existing folder/file structure under `src/components` and `src/stores` matches the requested spec.
+- [ ] Fix any incorrect imports/paths discovered during verification (no unnecessary refactors).
+- [ ] Update build/run config if needed.
+- [ ] Run `npm run dev` or `npm run build` to ensure the project compiles.
 
